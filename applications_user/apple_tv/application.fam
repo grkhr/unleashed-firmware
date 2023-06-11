@@ -1,0 +1,12 @@
+App(
+    appid="apple_tv",
+    name="Apple TV Remote",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="apple_tv_app",
+    cdefines=["APP_APPLE_TV"],
+    requires=["gui"],
+    stack_size=2 * 1024,
+    order=90,
+    fap_icon="apple_tv.png",
+    fap_category="Own",
+)
